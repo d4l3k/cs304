@@ -1,0 +1,185 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="63036ea1-ffc0-4942-a4ab-bcb0a7d82993" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Category</ID>
+  <Name>Category</Name>
+  <CreatedTimestamp>2006-01-12T00:21:33Z</CreatedTimestamp>
+  <LastSchemaUpdate>2006-02-26T09:01:20Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1049" scrolltop="-6043" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6033" y="16510" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="category" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3852" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800000c0f000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_category" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1049</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6043</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="121">
+            <Shape Id="Category" Expanded="false">
+              <Attributes>
+                <Attribute Id="Category" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Category Rollup" Expanded="false">
+              <Attributes>
+                <Attribute Id="Category Rollup" />
+              </Attributes>
+              <Position x="176" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2006-02-11T03:37:23Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d0498bd5-8b6b-4543-a36b-481f3a629ccb">
+    <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="89cc450f-34f9-40a9-b861-c8f3a8c76c7c">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="6f4b203c-333f-4816-9b31-970ffbea130b">
+      <ID>Category</ID>
+      <Name>Category</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd1e9c49-222b-4033-a84d-1efc468eaeb0">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3480486c-d644-4089-b1fc-c89b9eef4360">
+            <TableID>dbo_category</TableID>
+            <ColumnID>category_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="15cf26ea-882d-47fe-b667-5fdf330f9cbf">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0fd3b6f4-c1cc-4d28-92bd-4441bfdeb33c">
+          <TableID>dbo_category</TableID>
+          <ColumnID>category_description</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fa77029f-79e6-47dd-996f-e3b698603973">
+          <AttributeID>Category Rollup</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Category Rollup</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="0be8568b-5e51-42eb-a406-28a8e5005f46">
+      <ID>Category Rollup</ID>
+      <Name>Category Rollup</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="49972a88-eecb-4748-bcee-ff9f548f99ef">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0c16e1a-04d5-4646-81fa-412047d76e22">
+            <TableID>dbo_category</TableID>
+            <ColumnID>category_rollup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="66c42493-b6ce-47fc-8aa0-e1959536d3ac">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b3c5f52b-d271-4e6b-8cea-693cc60ac018">
+          <TableID>dbo_category</TableID>
+          <ColumnID>category_rollup</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="ae816b33-8a8c-42f2-9cb2-c59f4db3f02e">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="86c38f84-afa5-4e85-81a9-fef9c63a2712">
+          <ID>Category Rollup</ID>
+          <Name>Category Rollup</Name>
+          <SourceAttributeID>Category Rollup</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2c070e56-a2a5-4ef6-9ea8-3e9010382a9f">
+          <ID>Category</ID>
+          <Name>Category</Name>
+          <SourceAttributeID>Category</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="4d26cf58-0f08-49b4-8047-b0e628c18306">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d183a956-48f7-480e-b6a4-1e6bf8c57beb" />
+  </ProactiveCaching>
+</Dimension>

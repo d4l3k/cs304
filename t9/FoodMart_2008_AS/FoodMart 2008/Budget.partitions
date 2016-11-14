@@ -1,0 +1,28 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="97b30d5e-47f2-40c5-8327-d0e8f6bbb40e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Budget</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Expense Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2128b580-9683-41db-bd32-6d50e64ab10d">
+          <ID>Expense Fact</ID>
+          <Name>Expense Fact</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fb4f48dc-9dad-49b1-97e1-49c999c45139">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_expense_fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sales</ID>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

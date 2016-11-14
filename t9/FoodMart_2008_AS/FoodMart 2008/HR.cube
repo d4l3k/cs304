@@ -1,0 +1,971 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ef91477a-48ca-4739-9864-116f92325bcb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>HR</ID>
+  <Name>HR</Name>
+  <CreatedTimestamp>2006-01-12T00:21:36Z</CreatedTimestamp>
+  <LastSchemaUpdate>2006-02-26T09:01:24Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="26" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5700" scrolltop="-4492" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25713" y="9359" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001e22e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="employee" left="-636" top="5102" logicalid="13" controlid="1" masterid="0" hint1="0" hint2="0" width="3471" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008f0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_employee" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="position" left="-700" top="-1044" logicalid="14" controlid="2" masterid="0" hint1="0" hint2="0" width="3471" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008f0d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_position" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="department" left="2334" top="11176" logicalid="15" controlid="3" masterid="0" hint1="0" hint2="0" width="4212" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800007410000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_department" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-464" top="1484" logicalid="16" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3918" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[employee-position]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-65" y="1983" />
+              <point x="-65" y="3542" />
+              <point x="-1" y="3542" />
+              <point x="-1" y="5102" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1899" top="9802" logicalid="17" controlid="5" masterid="0" hint1="0" hint2="0" width="1291" height="1874" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[employee-department]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2790" y="11176" />
+              <point x="2790" y="10639" />
+              <point x="2199" y="10639" />
+              <point x="2199" y="10102" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="time_by_day" left="8148" top="-1482" logicalid="18" controlid="6" masterid="0" hint1="0" hint2="0" width="3090" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000120c0000da120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_time_by_day" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="store" left="3683" top="-2111" logicalid="19" controlid="7" masterid="0" hint1="0" hint2="0" width="3789" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000cd0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_store" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2535" top="2390" logicalid="20" controlid="8" masterid="0" hint1="0" hint2="0" width="1792" height="3862" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_store_dbo_employee]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="1" sourceattachpoint="1" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3927" y="2889" />
+              <point x="3927" y="5952" />
+              <point x="2835" y="5952" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="salary_by_day" left="7938" top="8340" logicalid="21" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="salary_by_day" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2535" top="8303" logicalid="22" controlid="10" masterid="0" hint1="0" hint2="0" width="5703" height="940" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[salary_by_day-employee]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="9" sourceattachpoint="23" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2835" y="8702" />
+              <point x="5386" y="8702" />
+              <point x="5386" y="8943" />
+              <point x="7938" y="8943" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6246" top="9743" logicalid="23" controlid="11" masterid="0" hint1="0" hint2="0" width="1992" height="2077" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[salary_by_day-department]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="9" sourceattachpoint="15" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6546" y="11420" />
+              <point x="7242" y="11420" />
+              <point x="7242" y="10043" />
+              <point x="7938" y="10043" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8038" top="2845" logicalid="24" controlid="12" masterid="0" hint1="0" hint2="0" width="955" height="5795" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[salary_by_day-time_by_day]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="9" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8593" y="3344" />
+              <point x="8593" y="5842" />
+              <point x="8338" y="5842" />
+              <point x="8338" y="8340" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5700</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4492</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-700</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2111</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2006-02-26T09:01:43Z</LastProcessed>
+  <State>Processed</State>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <Translations>
+    <Translation dwd:design-time-name="74f1143c-c7d6-4596-9c28-67e369d9d57a">
+      <Language>1049</Language>
+      <Caption>Работники</Caption>
+    </Translation>
+  </Translations>
+  <Dimensions>
+    <Dimension dwd:design-time-name="744dd185-2963-4a1e-b67a-cf0fe12787b2">
+      <ID>Employee</ID>
+      <Name>Employee</Name>
+      <DimensionID>Employee</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="39901554-17c1-4bb0-842a-ff2274eb336d">
+          <AttributeID>Employee</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e893b6c-150b-4719-abcb-3ae05bf35bcb">
+          <AttributeID>Department Id</AttributeID>
+          <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+        </Attribute>
+        <Attribute dwd:design-time-name="e58083a3-7440-4e50-9beb-5c6daa291e7c">
+          <AttributeID>Education Level</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17d7aefc-2c9d-4f6e-84a3-2e35e19e3220">
+          <AttributeID>Marital Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="391d309d-29c6-43a9-beb2-ab99243a25b7">
+          <AttributeID>Gender</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="048f19a7-df7e-4ac6-a8f8-c6854f13582b">
+          <AttributeID>Management Role</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbb81f3d-b95f-4337-9004-76b4c0a6fdc1">
+          <AttributeID>Position</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ecd147ce-20b0-40a6-94b3-4056b33164bc">
+          <AttributeID>Pay Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="554c6c96-8460-420f-976e-0e64df270fc6">
+          <AttributeID>Supervisor Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d8cfc65-a0ef-4430-b064-6068223a0a50">
+          <AttributeID>Store Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b95d0c2-4932-4393-8d29-c34bb6675154">
+          <AttributeID>User Name</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9a3a63cd-fcdd-4024-8441-46dcff72ec41">
+      <ID>Department</ID>
+      <Name>Department</Name>
+      <DimensionID>Department</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cf3faac5-30a3-4889-bc1a-86f4ba22aa3a">
+          <AttributeID>Department</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="22780209-e3e8-4b7c-b680-cd3dc8589aa4">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="e858718c-b831-4e37-8a89-2bd05c05fb1d">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <Translations>
+        <Translation dwd:design-time-name="765b7318-3bc7-4fc3-91dd-d82c25eaa9fb">
+          <Language>1049</Language>
+          <Caption>Время</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Time By Day</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e50b1e72-8119-4298-af5e-7dacbfc5e8a8">
+          <AttributeID>Time By Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3430bcbf-d233-401d-95a9-7117b72e5191">
+          <AttributeID>The Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4f80992-ff7d-498c-b494-e672f7e3143a">
+          <AttributeID>The Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6e73024-f923-4ec6-a64d-91c268155b09">
+          <AttributeID>The Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d2bb297-a24d-4a90-a15c-0fc57a721eb2">
+          <AttributeID>Week Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aed32c78-7960-4fb3-8574-97ffb65920e6">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fd5039cc-6a76-41dd-a916-4ae44f943ad9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="985b3004-cc3e-4ad2-be8b-47d8135c7abd">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="194f2b03-3649-41a0-a50e-f0c851d9f11a">
+      <ID>Store</ID>
+      <Name>Store</Name>
+      <Translations>
+        <Translation dwd:design-time-name="962db52e-dc74-4a03-acec-d204580a94e5">
+          <Language>1049</Language>
+          <Caption>Магазин</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Store</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7d4eccec-d3be-41c7-bc0a-264a1d3d1b78">
+          <AttributeID>Store</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9e83b55-c5e5-4849-88cf-a0068ec8dd99">
+          <AttributeID>Store Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52487d16-9ac5-492f-a889-a45ce09561a0">
+          <AttributeID>Store City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0691e8e0-a8ae-4204-9ee9-0a4873734464">
+          <AttributeID>Store State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea48d935-a4c7-43dd-9a4a-96e7edbbdce3">
+          <AttributeID>Store Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09a3c8a6-06ec-4c17-88d0-1a0e967ef510">
+          <AttributeID>Store Manager</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c565cb5-4717-4dac-8139-fb9a35c3a029">
+          <AttributeID>Store Sqft</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f4bedb3d-1acd-4de5-8608-4290196d83dc">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="0e46c876-17cd-40b5-90ac-383f62f9a1d2">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <Write>Allowed</Write>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="b217eb76-4afa-4400-a457-477112723174">
+      <ID>Salary By Day</ID>
+      <Name>Salary</Name>
+      <CreatedTimestamp>2006-01-12T00:21:36Z</CreatedTimestamp>
+      <LastSchemaUpdate>2006-02-26T09:01:24Z</LastSchemaUpdate>
+      <LastProcessed>2006-02-26T09:01:43Z</LastProcessed>
+      <State>Processed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c6c5fa37-0a33-4f86-aed7-7852b9b270a2">
+          <ID>Salary Paid - Salary By Day</ID>
+          <Name>Salary Paid</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="0cd0a709-09c7-4f26-bc4d-3a68e38171bb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="00321f1e-132a-4dfa-bb58-affc047160ee">
+              <TableID>salary_by_day</TableID>
+              <ColumnID>salary_paid</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="44764785-ffbe-4d17-ac01-f286895caff3">
+          <ID>Overtime Paid</ID>
+          <Name>Overtime Paid</Name>
+          <DataType>Double</DataType>
+          <Source dwd:design-time-name="ef90cc92-4d5d-4c55-9372-297f1a876e27">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24112b09-8049-4afe-b33a-17ca2227a172">
+              <TableID>salary_by_day</TableID>
+              <ColumnID>overtime_paid</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d04297f6-ad86-47cb-8cb0-d612e14f6e97">
+          <ID>Overtime Hours</ID>
+          <Name>Overtime Hours</Name>
+          <DataType>Single</DataType>
+          <Source dwd:design-time-name="7d3c33ca-6a54-4695-b092-4bd56dca5393">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8fa3adcc-72a2-481f-8394-8db45f5b0add">
+              <TableID>salary_by_day</TableID>
+              <ColumnID>overtime_hours</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>247160</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c1c01590-fe92-4156-9b5c-f21428d91f9f">
+          <CubeDimensionID>Employee</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ae41a994-c242-4e69-9fa9-11bcc81b8fd3">
+              <AttributeID>Employee</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cd4c0fda-47a2-4fa0-8699-09303211b27d">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3ba9d98-ae35-4a50-8931-b710376d8687">
+                    <TableID>salary_by_day</TableID>
+                    <ColumnID>employee_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="2b6acf4e-a5c3-4a1f-9bb2-366d244cbba9">
+              <AttributeID>Department Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="802d0789-d598-45ff-b13a-549a5347eba6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="89cb82bf-6231-425f-a910-ba97cebc814f" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="ce2e999a-0b9b-4632-b056-0b7081fcf6d2">
+              <AttributeID>Education Level</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ca0ab1e8-9071-4cff-a6b2-a75aa05add5a">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="4d5daf1a-bb34-4b60-8fae-a1708c1d2712" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="b5fbf1a8-b89f-4d0f-aa35-b10f0134fe5b">
+              <AttributeID>Marital Status</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e63278a3-956d-4b85-9519-22e33eee9dea">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="cccba660-4537-45d1-b503-0a33a4c322a5" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="3f90a2d6-8814-418b-a50b-b0cac2676e9c">
+              <AttributeID>Gender</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7cb7243b-7d45-4eec-b314-4d556b38dce7">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="7eb8c141-ed1e-4106-ac00-c181daeb28e1" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="154d0be8-bf40-4d96-a516-d8f11f3e6946">
+              <AttributeID>Management Role</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="973bdbd2-20f4-4716-89c7-9410417304fb">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="2dab4b25-f26f-4a1b-bd52-25f0caa49979" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="9a5d2f9f-bf92-40dc-87fc-ae80d6870fd8">
+              <AttributeID>Position</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0760c3e1-e8fb-4ca0-b785-d44d0eaf8936">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="c493ce62-574a-4796-963f-7bed52154944" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c9745983-401b-4688-abfc-22a8ca94ca82">
+              <AttributeID>Pay Type</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b9c0760b-d4bf-4dea-b91b-32e6c21c1873">
+                  <DataType>WChar</DataType>
+                  <DataSize>7</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="b849a83c-b831-4fba-a631-f2e94b04cfab" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="7fdfdeef-a662-4a68-9a64-3731db687614">
+              <AttributeID>Supervisor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="468ad3ab-cddd-425e-b7bb-f6316882ef16">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="b7e5659d-4231-4a74-a02f-9570785e19f2" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="371cb7dc-a100-4cb1-83ca-c1422c00e5ad">
+              <AttributeID>Store Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4b270351-fbe9-42f0-a74a-e84288b06f75">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="6bf0de33-6c60-4335-b871-691defc1df54" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="de8d2ee9-8318-47ae-9d19-da6695bd6c0a">
+          <CubeDimensionID>Department</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="262d98c1-6805-40e2-be95-ae0d3d8614c8">
+              <AttributeID>Department</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5021fc05-4eec-4012-8841-1e0efff60ec3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="15fdeb7c-90a4-4f97-b662-946466a976b1">
+                    <TableID>salary_by_day</TableID>
+                    <ColumnID>department_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="04bfd7c2-a9aa-4c52-b1a7-1172aea38c57">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9af55cfc-ec50-42c8-8d19-3c200b11cbe4">
+              <AttributeID>Time By Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8c4e08d8-5acd-409c-80bc-3b8d2c9179a2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="36a358a3-0eb8-41f5-a4c1-2aabc2f0a830">
+                    <TableID>salary_by_day</TableID>
+                    <ColumnID>time_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="a67c0e95-6c54-41fc-a14c-e19e9a3c6207">
+              <AttributeID>The Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ca2b54b0-55e4-4699-956a-d976cbc2af35">
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="c5b1c740-e9d9-4033-8cb6-bb1f2cc2b1b5" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="73b8acde-80a9-440d-a4bf-d8677e2c0d5e">
+              <AttributeID>The Month</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c92ff9c3-f252-4c87-8d33-ae6209ce9e62">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="c5eafec1-b418-4d25-8ecd-6de6e5b0800b" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="dd03407f-9485-4de8-b9c5-81a2341ad41a">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="4497f0d4-ea38-4074-8577-bd05bfb0d277" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="7b0a1461-42a5-471b-9445-664b37c5e1b5">
+              <AttributeID>The Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a52afa78-f8f6-4b33-ac62-03000fa14446">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="d808ba00-6daf-4475-8dce-95a6ad36f446" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="56340888-a7fa-4e66-b0f9-d79188567049">
+              <AttributeID>Week Of Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e4a0c1df-0241-4895-9417-642e9947e45b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="293a9bb0-98e6-4d23-b0fb-26509d1274a4" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a28cd8dd-ea3a-49e8-be4b-e06eb3b9d254">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="183ae6e1-bccf-436e-b98b-98255217dfe4" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="18bbbfb1-51fc-4d3e-91c5-72412a38959e">
+              <AttributeID>Quarter</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c98c9a14-d6b7-41d6-822e-b443cb9f001f">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="b41f3f63-55ad-4ccc-a84a-80f3f8bfeb44" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f0eca24f-fb89-41bb-92a4-0600e18200f5">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="6675ca43-7f12-4758-ad57-e1e22f415693" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5a3f110d-37ca-4b0c-b82f-dfd6f16f6857">
+          <CubeDimensionID>Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b5bd77ac-e1cb-46e7-9bac-e4bef270e5bf">
+              <AttributeID>Store</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Employee</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Store Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="3dc651e9-d89a-48a7-9a31-6f31940da77a">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d2522ed0-b47d-46c2-b3f2-bb15972bf783" />
+      </ProactiveCaching>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="6c905b1b-c753-4b6c-9699-08f425052031">
+      <ID>Salary</ID>
+      <Name>Employee</Name>
+      <CreatedTimestamp>2006-01-12T00:21:36Z</CreatedTimestamp>
+      <LastSchemaUpdate>2006-02-26T09:01:25Z</LastSchemaUpdate>
+      <LastProcessed>2006-02-26T09:01:43Z</LastProcessed>
+      <State>Processed</State>
+      <Measures>
+        <Measure dwd:design-time-name="346361f3-13b3-4d81-89d7-12e3641e74d7">
+          <ID>Employee Id Distinct Count</ID>
+          <Name>Employee Count</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="acf10a69-ad7a-4441-a2c3-244b3190c5d9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="637ba39e-797e-45a9-871b-88aa7976fa09">
+              <TableID>salary_by_day</TableID>
+              <ColumnID>employee_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>143369</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d4d325f0-6d6f-4836-ad49-c6271e756b72">
+          <CubeDimensionID>Employee</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="07b3878b-6054-4627-ae45-0bf588b8a47d">
+              <AttributeID>Employee</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="001026a6-8387-4921-bead-e4c9647d016f">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a93bace9-8a2b-4084-9645-612e2535521c">
+                    <TableID>salary_by_day</TableID>
+                    <ColumnID>employee_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="85e8392f-bf01-4bdc-8b35-c07b90f205e7">
+              <AttributeID>Department Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c796a46d-467a-463f-9720-0c72602b37c8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="f874f4e2-34c0-44fa-8b8a-7904e696490e" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="70146177-e453-4c9b-aed4-254e30a9ebc4">
+              <AttributeID>Education Level</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b3006fb-6167-4be3-ba79-832b5d866a24">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="dd427ff5-cf86-4e7a-8c68-c7fd63ed096b" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="11a23bea-d9d0-4b4b-97e0-0e98dceba570">
+              <AttributeID>Marital Status</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="35d5e2fb-ffaa-4463-aec8-157348159b13">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="a09f10a1-7ecb-4056-9235-a37b55625d80" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="63a49086-e7dc-40aa-8ce4-c1673421c512">
+              <AttributeID>Gender</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="20d34c4d-d9c1-4685-b7c6-174fe761ad36">
+                  <DataType>WChar</DataType>
+                  <DataSize>1</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="492b9504-8f97-48aa-a5ef-e5dddc3f31cf" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="5662915d-cbaf-4d1c-9f91-37d6436d8873">
+              <AttributeID>Management Role</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d439365f-9683-4281-b844-e56a571e24ef">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="8f950fe7-99f5-478a-a9ea-30e6a8907330" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="5ca38e2e-29d0-46fe-8f1c-50373ba95592">
+              <AttributeID>Position</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f52d1fee-f594-4911-8c70-99fb3538c9e0">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="e0601848-fdf4-4f39-9fd0-bf7808393c7e" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="1d8838b9-8e2b-48d5-8bdc-743fe81b2756">
+              <AttributeID>Pay Type</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cb947e53-d985-4322-a59b-3d684c8f4ac8">
+                  <DataType>WChar</DataType>
+                  <DataSize>7</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="cdba8b35-fdad-400d-80bb-1442a559f9c8" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="8ccec6bc-0884-43f2-92d0-b68130cd15f5">
+              <AttributeID>Supervisor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2d8285cc-f8f5-4a7d-8817-c9b762733cbc">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="410b5e97-925e-4b49-b77f-6d1feac3307a" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="b1a0ec27-8d85-44d5-a5a8-e55502758c3b">
+              <AttributeID>Store Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6074d02e-784a-401a-bb7d-fb82c1f22f21">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="e9da2c32-adff-428d-9043-ed1ad76d3514" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7e16e89a-3d90-4657-ac87-8d10d28521d4">
+          <CubeDimensionID>Department</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="25914ed6-78d6-4b9c-8aaa-38777b6724af">
+              <AttributeID>Department</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d29ed6a1-b936-468f-9ac8-ccfcc83eb2ae">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3508d062-a885-4fb8-a1eb-276ac73fe6c1">
+                    <TableID>salary_by_day</TableID>
+                    <ColumnID>department_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6d5b0bd3-97d2-4b53-a087-e1f2cac545ad">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f40f9d5f-cbe9-4f9d-aff2-db4d03232952">
+              <AttributeID>Time By Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="42b0fa87-8113-4cb0-becd-b6a3f022fc8a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0952a5d4-6fe3-4395-9555-f739dd19d2f0">
+                    <TableID>salary_by_day</TableID>
+                    <ColumnID>time_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="3c010bca-807f-4178-b9e0-e0d4828659bf">
+              <AttributeID>The Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="052c4aeb-44c9-4ab8-9c33-1b0524773d50">
+                  <DataType>WChar</DataType>
+                  <DataSize>15</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="a5282d1c-233c-4082-8e5c-9bc6a6c130e6" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="5486d7d0-fbdb-4250-a579-f0c964f42d12">
+              <AttributeID>The Month</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="35e1fe6f-9326-4707-a88f-311d2e3a7362">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="db485253-1a9b-41d2-b32d-897f88a6de3d" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="ef6979ba-5328-44ca-96c4-6ddf810cae3b">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="6f55f5e6-c261-423f-af7d-485b448a3dbb" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="cc7b9fc8-71e7-4534-bcf8-ae4dcd42e75a">
+              <AttributeID>The Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b3bc0ffd-2f4b-4005-b967-6231cbe42733">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="c6e07a99-74cc-4327-9eb0-e8698f55e80a" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="91155012-08c4-477f-9bd1-78adb7424ccc">
+              <AttributeID>Week Of Year</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d226120c-5479-4338-82da-cbb2ced3ebae">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="ab77cf5b-33f3-4f77-8456-302c5108c4de" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="836ecddc-7c42-4b0e-a1e4-b44b90ad5a00">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="081e7416-c9b5-4a93-8bf4-c9e56e94f907" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d9bb674f-d56b-4ffc-94f0-c4b9c3b96cfd">
+              <AttributeID>Quarter</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="965c31f2-0356-4ce4-88ac-a31752c24bbf">
+                  <DataType>WChar</DataType>
+                  <DataSize>2</DataSize>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="6edef0a4-d9dc-4550-ba80-0d7be619e59a" />
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="1399f30b-9330-4a6a-9512-f00f425574f8">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="InheritedBinding" dwd:design-time-name="352d6945-c91d-4fe1-ad93-955adf273e7f" />
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b0bcc191-c970-4708-a2ba-e4f6673c662b">
+          <CubeDimensionID>Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6537a8f0-b553-4afd-9cfe-4419bc5c7d15">
+              <AttributeID>Store</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Employee</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Store Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="0d8ba1bc-818f-4e9d-9d7c-f45187a32e3c">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f873f054-57e0-4cc5-afd8-2292ae71f21a" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="e46ebafd-8fef-45b7-8bc0-af58fd7dc9b0">
+    <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="59b71150-0cff-4a12-ade8-b9e220084757">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>2006-01-16T03:43:17Z</CreatedTimestamp>
+      <LastSchemaUpdate>2006-02-26T09:01:25Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[MEASURES].cellsecurity
+ AS IsAncestor(
+LinkMember([Employee].[User Name].[User Name].members("[Foodmart\Berger]"),[Employee].[Employees])
+, 
+ [employee].[Employees].CurrentMember) 
+OR
+LinkMember([Employee].[User Name].[User Name].members("[Foodmart\Berger]"),[Employee].[Employees])
+ IS 
+ [employee].[Employees].CurrentMember, 
+VISIBLE = 0  ; 
+CREATE MEMBER CURRENTCUBE.[MEASURES].cellsecurityexpression
+ AS false, 
+VISIBLE = 0  ;  
+CREATE SET CURRENTCUBE.[s]
+ AS Filter([Employee].[Employees].members,[Employee].[Employees].CurrentMember.Properties("User Name")="Foodmart\Berger"); 
+
+scope (Descendants(LinkMember([Employee].[User Name].[User Name].members("[Foodmart\Berger]"),[Employee].[Employees])));
+    [MEASURES].cellsecurityexpression = true;
+end scope;</Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <ProactiveCaching dwd:design-time-name="14f3cc2d-597c-48b8-912a-c0d0e82abac1">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="0cba9e2d-c88b-4863-abd6-6fd277ec6773" />
+  </ProactiveCaching>
+</Cube>

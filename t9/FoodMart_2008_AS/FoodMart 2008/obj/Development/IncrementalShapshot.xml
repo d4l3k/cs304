@@ -1,0 +1,166 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>FoodMart 2008_q7w9a</Database>
+    <Server>MAYNE\CSUGRADSQL</Server>
+    <ConnectionString>DataSource=MAYNE\CSUGRADSQL;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>c2+kX0Jj8rgWn43mH4RnJ26PQiQ=2016-11-14 1:09:15 PM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>FoodMart 2005</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>VP+f/nmWdo5IvkAiEh2f9Zr4nII=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>FoodMart 2005</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QADnMdUKOepc8Yt4jU+uZvcRAjs=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Account</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mva9J0jxhNGL1bcdbRvv8MqsbdM=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KhSzV7rF7F7qrLWFjlxvKcghpWQ=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>d6f38eWGTle1PViPhLvHOqBPNq4=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RS+8ajjYZG3TVPskEi3hOXzbWTk=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Department</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ivHiHXl9zir5zqWSE/n9/TVmuZ4=2009-03-12 12:08:54 PM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OJDGDmrlXpm450rAsS6t3GAmz9I=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>t077Hf6vyfkAznmN7lowGj7cDpA=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Promotion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>InIUE9vkgrz+KdcqHvmJm3TeRzw=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>k4vr/r8e+wOjzS21kGPA1w+u8Z8=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Time By Day</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pqLBxxvcLhOjwBAvHVwXV7pFCC0=2009-03-12 11:44:44 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>rzUmhroAIWK/rdeojSRMOCI7tYQ=2009-03-12 12:09:50 PM2016-11-14 12:57:58 PMoXApp09eXseQzdafK/7ZFXC6K6o=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Budget</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>9npHJIE2NhBaREnCZwKllEqMlxI=2009-03-12 12:10:32 PM2016-11-14 12:57:58 PMUc6ONpU5vcTGbAB3LMOJ5mpdJZI=2009-03-12 12:10:32 PM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>HR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>6hfuO6Z15IrbsOQ5i93EzItDass=2009-03-12 11:44:44 AM2016-11-14 12:57:58 PMNysKi7qCzj2HOrBGlmN90ulUZpo=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>FoodMart2005</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>9RbPxnbtqOB/UF+w7sw1CxOxL9c=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM+yttH7aar7sqx3dAUpSAodqewnE=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Sales and Employees</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>kSfIKV2GVVdI12oPxL/ElM1+MzQ=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>pLwzlo9jiK/Yx3NKw7WL+v4zQQ0=2009-03-12 11:44:42 AM2016-11-14 12:57:58 PM</TimeStamp>
+        <ID>
+          <String>Role 2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>c50no6BZnBZKFKL1WKw+Cu1JnK8=2009-03-12 12:08:00 PM2016-11-14 12:57:58 PM</TimeStamp>
+      <ID>
+        <String>FoodMart 2008_q7w9a</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-11-14T21:10:25.503333Z</LastDeployed>
+</DeploymentSnapshot>

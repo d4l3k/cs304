@@ -1,0 +1,40 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="79bda8ac-a719-4b71-aac3-def8cda0a3fe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sales and Employees</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Sales Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e4c94790-1723-4cf9-9d5a-ecab70c40462">
+          <ID>Sales Fact 1997</ID>
+          <Name>Sales Fact 1997</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="511d9976-8694-4a08-8e17-0ac7cc6b6fce">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_sales_fact_1997</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="d706fbfc-c9e3-4419-ab7f-9bcac0905851">
+          <ID>Sales Fact 1998</ID>
+          <Name>Sales Fact 1998</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="691af0fb-eefa-4e46-b3ae-ee421c8e713f">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_sales_fact_1998</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

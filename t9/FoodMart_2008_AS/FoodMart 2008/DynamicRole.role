@@ -1,0 +1,11 @@
+﻿<Role xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f4c6c834-a919-427a-85fe-c27369f49493" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Role 2</ID>
+  <Name>DynamicRole</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Members>
+    <Member>
+      <Name>Everyone</Name>
+    </Member>
+  </Members>
+</Role>

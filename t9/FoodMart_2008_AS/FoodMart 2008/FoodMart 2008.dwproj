@@ -1,0 +1,140 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>11.0.5583.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>FoodMart 2005.database</Name>
+    <FullPath>FoodMart 2005.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Budget.cube</Name>
+      <FullPath>Budget.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Budget.partitions</Name>
+          <FullPath>Budget.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>HR.cube</Name>
+      <FullPath>HR.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>HR.partitions</Name>
+          <FullPath>HR.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warehouse and Sales.cube</Name>
+      <FullPath>Warehouse and Sales.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Warehouse and Sales.partitions</Name>
+          <FullPath>Warehouse and Sales.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales and Employees.cube</Name>
+      <FullPath>Sales and Employees.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sales and Employees.partitions</Name>
+          <FullPath>Sales and Employees.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Account.dim</Name>
+      <FullPath>Account.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Category.dim</Name>
+      <FullPath>Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Currency.dim</Name>
+      <FullPath>Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Department.dim</Name>
+      <FullPath>Department.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Promotion.dim</Name>
+      <FullPath>Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Store.dim</Name>
+      <FullPath>Store.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warehouse.dim</Name>
+      <FullPath>Warehouse.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>FoodMart 2008.ds</Name>
+      <FullPath>FoodMart 2008.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>FoodMart 2008.dsv</Name>
+      <FullPath>FoodMart 2008.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>TestRole.role</Name>
+      <FullPath>TestRole.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DynamicRole.role</Name>
+      <FullPath>DynamicRole.role</FullPath>
+    </ProjectItem>
+  </Roles>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>FoodMart 2005</Id>
+            <Name>FoodMart 2005</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=MAYNE\CSUGRADSQL;Integrated Security=SSPI;Initial Catalog=FoodMart 2008</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>FoodMart 2005</Id>
+            <Name>FoodMart 2005</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

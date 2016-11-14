@@ -1,0 +1,479 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="59ef7bcc-f065-4217-a133-15ec93d10be9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Employee</ID>
+  <Name>Employee</Name>
+  <CreatedTimestamp>2006-01-12T00:21:34Z</CreatedTimestamp>
+  <LastSchemaUpdate>2006-02-26T09:01:21Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1582" scrolltop="-2449" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9300" y="9359" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001e22e0100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="employee" left="-467" top="1088" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3471" height="7831" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008f0d0000971e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_employee" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="position" left="5713" top="-1651" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3471" height="4112" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008f0d000010100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_position" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2704" top="556" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="3309" height="4747" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[employee-position]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="18" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5713" y="955" />
+              <point x="4359" y="955" />
+              <point x="4359" y="5003" />
+              <point x="3004" y="5003" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="department" left="5967" top="6485" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="4149" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003510000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="Fixed Rectangle" value="0" vartype="2" />
+                <property name="LogicalObject" value="dbo_department" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2704" top="5253" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="3563" height="1876" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[employee-department]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="14" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5967" y="6729" />
+              <point x="4443" y="6729" />
+              <point x="4443" y="5553" />
+              <point x="3004" y="5553" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1582</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2449</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-467</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1651</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="134">
+            <Shape Id="Employee" Expanded="true">
+              <Attributes>
+                <Attribute Id="Employee" />
+                <Attribute Id="Department Id" />
+                <Attribute Id="Education Level" />
+                <Attribute Id="Supervisor Id" />
+                <Attribute Id="Gender" />
+                <Attribute Id="Marital Status" />
+                <Attribute Id="Store Id" />
+                <Attribute Id="User Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Position" Expanded="false">
+              <Attributes>
+                <Attribute Id="Position" />
+                <Attribute Id="Management Role" />
+                <Attribute Id="Pay Type" />
+              </Attributes>
+              <Position x="192" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2006-02-11T03:37:34Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6c47f666-61f6-4764-bdc5-08e4a161274c">
+    <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="c9b67ec8-360d-4a8b-81cc-b9f2070e0bad">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="6bacefe9-4992-4b88-acb1-36ad5a8a8b8f">
+      <ID>Employee</ID>
+      <Name>Employee</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0e47c775-f9cd-49b0-a6ad-b1892c09d1b8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f88c6925-dc57-4bd8-8780-aef33878396c">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>employee_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6c026ccc-028e-472e-aa90-4e35ba2c2e1a">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="344d3941-2335-432b-8808-cbc47b94ac1d">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>full_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d1caf3fa-03a1-4380-8989-d586ea5b2bdc">
+          <AttributeID>Education Level</AttributeID>
+          <Name>Education Level</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="90fa3f8b-f866-4c41-8cc2-fc6d8d75c4d3">
+          <AttributeID>Marital Status</AttributeID>
+          <Name>Marital Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d6b3cb9d-24c1-4dc7-9a3c-e957e69b6735">
+          <AttributeID>Gender</AttributeID>
+          <Name>Gender</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1d33229a-8e79-4b43-9b55-8b560687dca2">
+          <AttributeID>Position</AttributeID>
+          <Name>Position</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d50129c6-d8d4-4a2c-8e7f-3d255893425b">
+          <AttributeID>Supervisor Id</AttributeID>
+          <Name>Employees</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3c998e57-3c51-4b72-a3ce-e528898a9446">
+          <AttributeID>Store Id</AttributeID>
+          <Name>Store</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f64246cb-636d-4bc8-8559-10a9f8c6f950">
+          <AttributeID>User Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>User Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="19626268-c588-4507-9c62-44c52d99c416">
+          <AttributeID>Department Id</AttributeID>
+          <Name>Department</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+    </Attribute>
+    <Attribute dwd:design-time-name="03f11a7b-51b7-48c9-b26d-d04ccf787586">
+      <ID>Department Id</ID>
+      <Name>Department</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6868be01-3da0-49e9-9909-71981b9d586e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f1bdfe6-a279-4daa-8f0a-892f4f034531">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>department_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7c0ca57e-ac13-4052-9d80-a3b44a5b304c">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="df5c5844-e326-4a9b-8fe2-45b03dff4334">
+          <TableID>dbo_department</TableID>
+          <ColumnID>department_description</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOptimizedState>NotOptimized</AttributeHierarchyOptimizedState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0999c3a6-9e2c-43f3-8a32-0a774640aff7">
+      <ID>Education Level</ID>
+      <Name>Education Level</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b6be8c2-cff9-4ef9-bcaf-7eeb522fad6a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99e9bf73-4cd1-4840-b3d6-7955d607544b">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>education_level</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8c71fa5d-36af-437e-9546-2105d09630c4">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5960bc02-02aa-41b1-9625-3b967fc2b0a2">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>education_level</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="6effd006-f368-4740-bac0-da73ad9de8a0">
+      <ID>Marital Status</ID>
+      <Name>Marital Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3b777454-2545-49fe-8b68-8545d9356f49">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15374fef-1dab-41d5-97bc-c741b18c306c">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>marital_status</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3c433fc0-8a62-4300-b915-fcbc711ba2de">
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1999e19d-9f49-4742-8afd-b8d25fe9209e">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>marital_status</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="f576dc4f-d263-40cc-9240-fcb6ba047a38">
+      <ID>Gender</ID>
+      <Name>Gender</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="654b89f8-5dd4-4f08-8b33-4e971645f6e7">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c70ed1af-4e5e-47f1-aa5f-bb3c32674024">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d124ea58-9690-44ad-ad5c-13ef917d2371">
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="89e797ca-cb19-4354-850b-6a0c81a98ef1">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>gender</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="290f0fbe-71c5-4a65-a809-ba29972ae62a">
+      <ID>Management Role</ID>
+      <Name>Management Role</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2921b936-ff4e-4014-b1dd-03928daef28e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e64117a5-c9d5-4283-9cae-cd69e4c15f09">
+            <TableID>dbo_position</TableID>
+            <ColumnID>management_role</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c8e52a9c-bc90-4df0-9244-aea7714ae49e">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9ce42c91-5ac6-431c-bea4-934d94913bdd">
+          <TableID>dbo_position</TableID>
+          <ColumnID>management_role</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="bdb100ff-e853-49db-9ba5-0ec9fad34f88">
+      <ID>Position</ID>
+      <Name>Position</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a88b636-3ceb-4195-8786-f8373ebe8d3e">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20377cba-5f75-47c9-8497-f6c2560e6d1e">
+            <TableID>dbo_position</TableID>
+            <ColumnID>position_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7ed0a1d9-b1c7-4113-aa03-7ac69498fc83">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e41c2963-1df7-466c-9e22-8ab1579a5efb">
+          <TableID>dbo_position</TableID>
+          <ColumnID>position_title</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bd958888-0aaf-4d63-9491-426623ad8d7e">
+          <AttributeID>Pay Type</AttributeID>
+          <Name>Pay Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="33960b52-c850-4266-9a93-fda66c02d3a7">
+          <AttributeID>Management Role</AttributeID>
+          <Name>Management Role</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="91f41f72-55db-426a-95cd-8f5d82986c16">
+      <ID>Pay Type</ID>
+      <Name>Pay Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be0f5bc7-d790-45b3-95a0-b4f9c2bfc661">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76bdb839-c212-41a8-b4d7-b61bfa49bf8a">
+            <TableID>dbo_position</TableID>
+            <ColumnID>pay_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cb8f8575-2af9-440d-9a5d-1b6e6d92130b">
+        <DataType>WChar</DataType>
+        <DataSize>7</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cb422fc4-f008-4379-9003-31fa7bbea06d">
+          <TableID>dbo_position</TableID>
+          <ColumnID>pay_type</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb09b2d6-231e-444f-bc28-b6b432b2f191">
+      <ID>Supervisor Id</ID>
+      <Name>Employees</Name>
+      <Usage>Parent</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1065cf8e-ea78-411f-8304-71383901d8d7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="026547f6-d03a-4747-86e7-e0429cef6470">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>supervisor_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="21b22512-7e2f-4286-9cd8-fb5e49cba6d3">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="564d9f53-2337-4d49-9a52-cc5e8e5dfe34">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>full_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <NamingTemplate>CEO;Senior Management;Level</NamingTemplate>
+      <MembersWithDataCaption>(* data)</MembersWithDataCaption>
+    </Attribute>
+    <Attribute dwd:design-time-name="b2c8f1db-a126-4b24-97cf-65e435c7912e">
+      <ID>Store Id</ID>
+      <Name>Store</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d07b636c-51c5-4405-95b6-1e18d0ca9fc7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67d42e1f-f78e-4c34-8f2e-7cbfdbddf98d">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>store_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d59abcaa-571b-419b-b785-6b42e9f1340e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a3cae8f2-9aac-44e4-838f-f470a38550df">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>store_id</ColumnID>
+        </Source>
+      </NameColumn>
+    </Attribute>
+    <Attribute dwd:design-time-name="176851b7-8249-4289-98d4-9d0ea651f565">
+      <ID>User Name</ID>
+      <Name>User Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f32aa001-4327-4cf5-a9d9-8b3e5f86318c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1671c325-ed35-4a2d-ad1c-b9c176a9afb6">
+            <TableID>dbo_employee</TableID>
+            <ColumnID>employee_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="232502fd-91cb-4ffd-b6a7-0b6e7d0436c9">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="af65f0e3-6b41-4a95-a39f-389a68415efa">
+          <TableID>dbo_employee</TableID>
+          <ColumnID>user_name</ColumnID>
+        </Source>
+      </NameColumn>
+    </Attribute>
+  </Attributes>
+  <ProactiveCaching dwd:design-time-name="99dbf031-759d-4d2c-9c9d-43b36ff16bf6">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="b371428d-26e8-4573-b1a5-82daf2b4c929" />
+  </ProactiveCaching>
+</Dimension>

@@ -1,0 +1,465 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bffc7537-460a-4bfb-9955-b7fd2812de1f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Time By Day</ID>
+  <Name>Time</Name>
+  <CreatedTimestamp>2006-01-12T00:21:35Z</CreatedTimestamp>
+  <LastSchemaUpdate>2006-02-26T09:01:23Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1329" scrolltop="-4405" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6033" y="16510" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="time_by_day" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3043" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000e30b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_time_by_day" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1329</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4405</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="82">
+            <Shape Id="Time By Day" Expanded="false">
+              <Attributes>
+                <Attribute Id="Time By Day" />
+                <Attribute Id="The Day" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Week Of Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Week Of Year" />
+              </Attributes>
+              <Position x="127" y="20" />
+            </Shape>
+            <Shape Id="The Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="The Year" />
+              </Attributes>
+              <Position x="342" y="20" />
+            </Shape>
+            <Shape Id="The Month" Expanded="false">
+              <Attributes>
+                <Attribute Id="The Month" />
+              </Attributes>
+              <Position x="127" y="68" />
+            </Shape>
+            <Shape Id="Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter" />
+              </Attributes>
+              <Position x="235" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2006-02-11T03:37:22Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6646b8c4-19a6-4698-b10e-e49552e8cf58">
+    <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+  </Source>
+  <Type>Time</Type>
+  <ErrorConfiguration dwd:design-time-name="542a8c7c-ce10-4e44-997f-33146d8cc57f">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation dwd:design-time-name="ddbd709c-d1a1-4228-85f9-755b6c5a3281">
+      <Language>1049</Language>
+      <Caption>Время</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="aa2a0312-0a29-4301-846d-8465358a7c1f">
+      <ID>Time By Day</ID>
+      <Name>Date</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>730</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="274ab2c3-a1a3-4039-97cd-ff6c64e21ff2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fe71838-1f2b-40ee-9d60-61cc1b7b9b98">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>time_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b4efb8d1-e146-4a53-9abc-b87eac1d1bfd">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="249474a0-023a-4124-bbd6-0af12e263d77">
+          <TableID>dbo_time_by_day</TableID>
+          <ColumnID>the_date</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="7b12e9e9-8419-4a42-a961-ce0453ff42d1">
+          <AttributeID>The Day</AttributeID>
+          <Name>Day</Name>
+          <Translations>
+            <Translation dwd:design-time-name="55f526cc-10a9-4ee9-b126-6f023be8d9dc">
+              <Language>1049</Language>
+              <Caption>День</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e890a40e-14b9-445f-b615-1d660899ab35">
+          <AttributeID>The Month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c909937-7ab2-4c8b-9f7c-fc7d8b0d2736">
+          <AttributeID>Week Of Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Week</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>FilteredList</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="50736936-b560-4862-a1b5-5c77de93d3c4">
+      <ID>The Day</ID>
+      <Name>Day</Name>
+      <Type>DayOfWeek</Type>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c9133da9-70a8-41ec-ab8a-a7276edc7b53">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5365a0c4-66ba-429b-9cc7-5a0ca48b768c">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>the_day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bfc2213a-1eef-4534-9c3e-85cb751e9a9a">
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a8034e1b-d8c6-4283-96fb-3c2abd4e73c1">
+          <TableID>dbo_time_by_day</TableID>
+          <ColumnID>the_day</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="8bb2b3be-91dc-469c-b4ba-26adc4ecab4c">
+          <Language>1049</Language>
+          <Caption>День</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb3ed290-62e1-4bdf-8594-59ae56db115a">
+      <ID>The Month</ID>
+      <Name>Month</Name>
+      <Type>Months</Type>
+      <EstimatedCount>12</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a4de6df-45f2-4385-a6c5-a89d2320649e">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6be9e99f-032a-47ab-8034-e56db1c21d9f">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>month_of_year</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="4f66c6ee-df17-44bf-93ed-5d3303328139">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7722daaa-f4a2-4e56-8ebf-3cb65d9417f5">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>the_year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="246c6810-af39-47e2-8b28-84980aa7209d">
+        <DataType>WChar</DataType>
+        <DataSize>15</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="db844bce-2127-42d5-b422-be7e3d0f6637">
+          <TableID>dbo_time_by_day</TableID>
+          <ColumnID>the_month</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="26981ded-f062-4015-b49a-6964aaeed9a3">
+          <AttributeID>Quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="fcc2cf01-5aba-4e6b-837c-4c9216630725">
+      <ID>The Year</ID>
+      <Name>Year</Name>
+      <Type>Years</Type>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca4041f7-3250-42c4-a03b-a119935a335d">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="939ac0ca-4217-4ede-8c05-fa11c819613b">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>the_year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bba93c86-6631-4cd6-871e-9a8dc0ae3562">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3f2dae86-f990-4112-b61d-79f39660be20">
+          <TableID>dbo_time_by_day</TableID>
+          <ColumnID>the_year</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="d5249429-66ef-4a72-858b-2ae81b7fb3b6">
+      <ID>Week Of Year</ID>
+      <Name>Week</Name>
+      <Type>Weeks</Type>
+      <EstimatedCount>52</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8f7ddce-3613-44ad-9d82-bd839bd71323">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a083adb-c414-4aad-8cc6-67049f96fca2">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>WeekOfYear</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="cf069445-9dd9-4ed0-8f54-b09775ff9d41">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c287782e-dc57-4e5d-bed3-eb71ce2f6a0c">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>the_year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="89cdf496-6770-4987-9ee2-058a4edabaad">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="03dfc706-0cf8-4fea-a024-f890ae5e4ad4">
+          <TableID>dbo_time_by_day</TableID>
+          <ColumnID>WeekOfYear</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fe2b367f-0ed0-4562-8bb5-7ab51a684422">
+          <AttributeID>The Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca5c8867-2137-45d2-8f6c-ec04a1efd081">
+      <ID>Quarter</ID>
+      <Name>Quarter</Name>
+      <Type>Quarters</Type>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="777baaf7-6047-4b77-b6c2-ec8f05ee04cb">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcc48e54-386c-4772-900d-10036813df7a">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>quarter</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2196aea3-db29-47fd-9643-2a330465db5f">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="887b8018-3392-4432-acee-5d90c9575a62">
+            <TableID>dbo_time_by_day</TableID>
+            <ColumnID>the_year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="843248f4-d833-451c-9162-ea668d0e71e4">
+        <DataType>WChar</DataType>
+        <DataSize>2</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8615eacf-ef62-4d6d-bc00-f8ef5aa4f519">
+          <TableID>dbo_time_by_day</TableID>
+          <ColumnID>quarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d1fd92ae-cded-4296-8f93-e2642f7f846c">
+          <AttributeID>The Year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="6d6c19b5-e3ab-49f0-907b-d6ae2be5adb0">
+      <ID>Hierarchy</ID>
+      <Name>Time</Name>
+      <Translations>
+        <Translation dwd:design-time-name="98483329-a37d-4d22-bd4d-4e8685ed1e02">
+          <Language>1049</Language>
+          <Caption>Время</Caption>
+        </Translation>
+      </Translations>
+      <Levels>
+        <Level dwd:design-time-name="0c7144b2-28ea-4090-85ba-7aecb43fd9e1">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <SourceAttributeID>The Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="87a7f362-8f46-4ca9-b7f9-c90d0012c054">
+              <Language>1049</Language>
+              <Caption>Год</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="b08eee19-1c51-4a80-87c7-affbc7d71a89">
+          <ID>Quarter</ID>
+          <Name>Quarter</Name>
+          <SourceAttributeID>Quarter</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="877d196a-3cfc-4775-838e-2371ad4b8f61">
+              <Language>1049</Language>
+              <Caption>Квартал</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="71230600-2e0e-4b7b-89c3-59c67f32ab54">
+          <ID>Month</ID>
+          <Name>Month</Name>
+          <SourceAttributeID>The Month</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="01a7d1f9-61b7-4180-a790-afbc682cbcff">
+              <Language>1049</Language>
+              <Caption>Месяц</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="f214778c-1d26-4558-a797-48f3409c1340">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Time By Day</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="77bf6af8-35f3-43eb-8254-f809edb828ba">
+              <Language>1049</Language>
+              <Caption>День</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="7ddcd962-5588-4005-b79c-35d53fdcfaad">
+      <ID>Hierarchy 1</ID>
+      <Name>Time By Week</Name>
+      <Translations>
+        <Translation dwd:design-time-name="3f028879-3441-4dc3-987d-2a5962e12b9c">
+          <Language>1049</Language>
+          <Caption>Время по неделям</Caption>
+        </Translation>
+      </Translations>
+      <Levels>
+        <Level dwd:design-time-name="51c4eb21-0486-4f12-bc4a-7b70ca144cb1">
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <SourceAttributeID>The Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="d165f2dc-bfaf-48aa-b53e-f08863af5d74">
+              <Language>1049</Language>
+              <Caption>Год</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="176a78a1-e517-41c4-8309-5ac644afaf08">
+          <ID>Week</ID>
+          <Name>Week</Name>
+          <SourceAttributeID>Week Of Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="763a99d8-3668-4c58-9e3d-f310cfc78672">
+              <Language>1049</Language>
+              <Caption>Неделя</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="6222d460-15b2-4cc9-b096-9c3e3fddc4b2">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Time By Day</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="ab9b2526-a957-44e0-90a5-8c22e926a832">
+              <Language>1049</Language>
+              <Caption>День</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="9ffef2e0-cc3f-4003-8006-3bda908f1817">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="756c84c2-18bd-4ad7-ae09-8c4b83b18c01" />
+  </ProactiveCaching>
+</Dimension>

@@ -1,0 +1,115 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="79bda8ac-a719-4b71-aac3-def8cda0a3fe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Warehouse and Sales</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Inventory Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="97424c0a-2c2e-4b8d-9c4a-2eea7be6dc7f">
+          <ID>Inventory Fact 1997</ID>
+          <Name>Inventory Fact 1997</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8dd9d4ce-4546-4cad-abec-84900e3a1508">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_inventory_fact_1997</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="4e9bda87-03c3-4bd9-bbc4-8bb446a00322">
+          <ID>Inventory Fact 1998</ID>
+          <Name>Inventory Fact 1998</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bce93fff-6e82-433e-8a1f-bb0bbabb09d4">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_inventory_fact_1998</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sales Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e4c94790-1723-4cf9-9d5a-ecab70c40462">
+          <ID>Sales Fact 1997</ID>
+          <Name>Sales Fact 1997</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="511d9976-8694-4a08-8e17-0ac7cc6b6fce">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_sales_fact_1997</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+        <Partition dwd:design-time-name="d706fbfc-c9e3-4419-ab7f-9bcac0905851">
+          <ID>Sales Fact 1998</ID>
+          <Name>Sales Fact 1998</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="691af0fb-eefa-4e46-b3ae-ee421c8e713f">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_sales_fact_1998</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Rates</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b12c3e86-dfa8-4dd9-9648-042e5fddea72">
+          <ID>Rates</ID>
+          <Name>Rates</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e7b2f179-9340-42f6-8afd-e83d227b0b6c">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_rates</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Warehouse Inventory</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="bdd7d07e-8477-468b-a9ce-939fc684bc55">
+          <ID>Warehouse Inventory</ID>
+          <Name>Warehouse Inventory</Name>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="686b0608-1b11-4d14-9c45-97ab27a3af8d">
+            <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+            <TableID>dbo_warehouse_inventory</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

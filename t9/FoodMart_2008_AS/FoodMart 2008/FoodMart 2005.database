@@ -1,0 +1,104 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5d12405a-322f-494d-9be2-14e9a4629f6f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FoodMart 2008</ID>
+  <Name>FoodMart 2008</Name>
+  <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>B77886FF900E4C18A95F79A6BFA488A9</Name>
+      <Value>
+        <Results xmlns="B77886FF900E4C18A95F79A6BFA488A9">
+          <Result sourcePath="[Currency]" sourceType="Dimension" rule="11"></Result>
+          <Result sourcePath="[Customer]" sourceType="Dimension" rule="14"></Result>
+          <Result sourcePath="[Department]" sourceType="Dimension" rule="31"></Result>
+          <Result sourcePath="[Product]" sourceType="Dimension" rule="31"></Result>
+          <Result sourcePath="[Promotion]" sourceType="Dimension" rule="31"></Result>
+          <Result sourcePath="[Store]" sourceType="Dimension" rule="14"></Result>
+        </Results>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T08:00:00Z</LastUpdate>
+  <EstimatedSize>10581759</EstimatedSize>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <Dimensions />
+  <Cubes />
+  <DataSources />
+  <DataSourceViews />
+  <Accounts>
+    <Account dwd:design-time-name="a4826b3d-8aa2-4da5-bd4f-876a4aa50748">
+      <AccountType>Balance</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Balance</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="0b0e0bd0-6043-4bab-bca7-cc0c3e53e3fa">
+      <AccountType>Asset</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Asset</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="7df92591-6385-456a-8095-9cec786ade34">
+      <AccountType>Liability</AccountType>
+      <AggregationFunction>LastNonEmpty</AggregationFunction>
+      <Aliases>
+        <Alias>Liability</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="8fe4cd3d-3bb3-47a6-820f-33eae1223e02">
+      <AccountType>Income</AccountType>
+      <Aliases>
+        <Alias>Income</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="f5cd074c-36ad-4323-b7be-2ec4d3f954f8">
+      <AccountType>Expense</AccountType>
+      <Aliases>
+        <Alias>Expense</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="cdaa69d2-e182-4abc-b4b4-792881a74172">
+      <AccountType>Flow</AccountType>
+      <Aliases>
+        <Alias>Flow</Alias>
+      </Aliases>
+    </Account>
+    <Account dwd:design-time-name="f36e5930-4d44-46c9-96db-1a762d11a47d">
+      <AccountType>Statistical</AccountType>
+    </Account>
+  </Accounts>
+  <Roles />
+  <DatabasePermissions>
+    <DatabasePermission dwd:design-time-name="c4657c7c-d00c-4ca4-9d87-6df083921676">
+      <ID>DatabasePermission</ID>
+      <Name>DatabasePermission</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DatabasePermission>
+    <DatabasePermission dwd:design-time-name="0dc39ff9-25ef-4d81-a7d2-3186d09af35d">
+      <ID>DatabasePermission 2</ID>
+      <Name>DatabasePermission 2</Name>
+      <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 2</RoleID>
+      <Read>Allowed</Read>
+    </DatabasePermission>
+  </DatabasePermissions>
+  <Translations>
+    <Translation dwd:design-time-name="a01ab986-41fa-42ef-9574-8e575007f462">
+      <Language>1049</Language>
+      <Caption>Сеть Продуктовых Магазинов</Caption>
+    </Translation>
+  </Translations>
+</Database>

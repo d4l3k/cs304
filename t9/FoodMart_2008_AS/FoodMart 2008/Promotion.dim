@@ -1,0 +1,204 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="603fa062-d490-4737-b09d-383a220d109f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Promotion</ID>
+  <Name>Promotion</Name>
+  <CreatedTimestamp>2006-01-12T00:21:35Z</CreatedTimestamp>
+  <LastSchemaUpdate>2006-02-26T09:01:22Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-985" scrolltop="-4908" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6033" y="16510" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="promotion" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000930e00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_promotion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-985</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4908</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="96">
+            <Shape Id="Promotion" Expanded="false">
+              <Attributes>
+                <Attribute Id="Promotion" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Media Type" Expanded="false">
+              <Attributes>
+                <Attribute Id="Media Type" />
+              </Attributes>
+              <Position x="145" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2006-02-11T03:37:25Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2c0358c6-94bd-44bd-9601-15248ff71d7b">
+    <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="c0ec3dbd-4bc3-41f9-babc-75842c307123">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation dwd:design-time-name="d07a7fa3-cead-4f18-b76e-2492c68bdb9b">
+      <Language>1049</Language>
+      <Caption>Реклама</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="1364bb35-234d-4211-831a-777c0c341b73">
+      <ID>Promotion</ID>
+      <Name>Promotion</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>1864</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8032792-4d30-4f23-9005-9e96ec16f054">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8925643c-f478-48bf-93fd-16e31401d4a5">
+            <TableID>dbo_promotion</TableID>
+            <ColumnID>promotion_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="4114b18c-80e7-405d-b2bd-d73b1ec1a495">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="81c13aea-b115-47d2-8f91-ef86a787b18f">
+          <TableID>dbo_promotion</TableID>
+          <ColumnID>promotion_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2408149b-8f16-49bb-8ab0-abcab82baea1">
+          <AttributeID>Media Type</AttributeID>
+          <Name>Media Type</Name>
+          <Translations>
+            <Translation dwd:design-time-name="97995e75-5db5-49fb-8289-788b4b1d0ab8">
+              <Language>1049</Language>
+              <Caption>Вид рекламы</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>FilteredList</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="b41cfb84-309e-4aeb-9f46-f6b0f4a4e0f5">
+      <ID>Media Type</ID>
+      <Name>Media Type</Name>
+      <EstimatedCount>14</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="90f95641-d289-4ed1-9e5b-59ac02824726">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99759455-316b-4682-a404-d7dca2f637eb">
+            <TableID>dbo_promotion</TableID>
+            <ColumnID>media_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="05fa1d1a-23bb-4bdb-a8b5-81b176b49f0e">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3aa6a7de-5169-43dc-87f0-e1a21d430a5a">
+          <TableID>dbo_promotion</TableID>
+          <ColumnID>media_type</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="94a1d571-73d0-4fcd-89df-e63eab86e5ba">
+          <Language>1049</Language>
+          <Caption>Вид рекламы</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="78903549-90e5-42da-8680-106cd22d7930">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="fa664e08-fd29-440f-ab77-cd555a4574a9">
+          <ID>Media Type</ID>
+          <Name>Media Type</Name>
+          <SourceAttributeID>Media Type</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6b16a603-73c6-409d-90ae-5523bf242006">
+          <ID>Promotion</ID>
+          <Name>Promotion</Name>
+          <SourceAttributeID>Promotion</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="f2ff8432-9b4f-41c7-9cb9-768a7464fca6">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="031db80f-07a5-47a7-9766-10d092324f9e" />
+  </ProactiveCaching>
+</Dimension>

@@ -1,0 +1,353 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="671932be-ccb6-400d-a9ba-5d5ff7648397" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Warehouse</ID>
+  <Name>Warehouse</Name>
+  <CreatedTimestamp>2006-01-12T00:21:35Z</CreatedTimestamp>
+  <LastSchemaUpdate>2006-02-26T09:01:23Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-562" scrolltop="-4405" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6033" y="16510" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="warehouse" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4577" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000e111000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_warehouse" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-562</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4405</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="119">
+            <Shape Id="Warehouse" Expanded="false">
+              <Attributes>
+                <Attribute Id="Warehouse" />
+                <Attribute Id="Stores Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Warehouse City" Expanded="false">
+              <Attributes>
+                <Attribute Id="Warehouse City" />
+              </Attributes>
+              <Position x="173" y="20" />
+            </Shape>
+            <Shape Id="Warehouse State Province" Expanded="false">
+              <Attributes>
+                <Attribute Id="Warehouse State Province" />
+              </Attributes>
+              <Position x="327" y="20" />
+            </Shape>
+            <Shape Id="Warehouse Country" Expanded="false">
+              <Attributes>
+                <Attribute Id="Warehouse Country" />
+              </Attributes>
+              <Position x="481" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2006-02-11T03:37:29Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="094431c6-fabd-4a0a-936b-415ab3c001ab">
+    <DataSourceViewID>FoodMart 2005</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="4e55716b-9da6-47ae-a7e7-2b903a2a2d55">
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation dwd:design-time-name="8c24fb26-fc1f-499a-a066-6866f8997e8c">
+      <Language>1049</Language>
+      <Caption>Склад</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="e1cd5e00-37dd-48b4-9f2f-6d863cb80b3d">
+      <ID>Warehouse</ID>
+      <Name>Warehouse</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>24</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2189cc92-5fc8-4f2e-91a3-f2339fc8be81">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b582045-0a29-4b24-b065-8db3981ca132">
+            <TableID>dbo_warehouse</TableID>
+            <ColumnID>warehouse_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="eace6525-ccd8-4f07-b8d8-9645a0d04eea">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d5d8903d-6174-4dfc-a549-8656e8623e9f">
+          <TableID>dbo_warehouse</TableID>
+          <ColumnID>warehouse_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1fbe4684-910f-4948-96ac-5879c868c9c6">
+          <AttributeID>Stores Id</AttributeID>
+          <Name>Stores Id</Name>
+          <Translations>
+            <Translation dwd:design-time-name="0c5abd77-da24-45b9-a7b7-4ba105f71aff">
+              <Language>1049</Language>
+              <Caption>Магазин</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="15377539-1c20-45b5-8d6a-2555f2e41780">
+          <AttributeID>Warehouse City</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>City</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="fafa675d-57fa-4e1e-bc56-cab3ade3f061">
+      <ID>Stores Id</ID>
+      <Name>Stores Id</Name>
+      <EstimatedCount>24</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="45adea80-4b0f-4ffe-88f4-ebd16911fa87">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38b7e2cd-df83-40b1-8d6d-1124d4748eaf">
+            <TableID>dbo_warehouse</TableID>
+            <ColumnID>stores_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e6ac647b-6379-4023-a48b-57a09a504f62">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="70e6416c-726d-4fb7-9adb-e8088f09cabd">
+          <TableID>dbo_warehouse</TableID>
+          <ColumnID>stores_id</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="75ef0f90-ccc9-4713-b893-208e23e3ccb9">
+          <Language>1049</Language>
+          <Caption>Магазин</Caption>
+        </Translation>
+      </Translations>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="9d40648e-f894-4f20-98eb-0f8fc2e13427">
+      <ID>Warehouse City</ID>
+      <Name>City</Name>
+      <EstimatedCount>23</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="270ded35-c234-47de-965c-79240e9d2d1e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df40a359-5b59-41a3-998b-6da924e24e2d">
+            <TableID>dbo_warehouse</TableID>
+            <ColumnID>warehouse_city</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="31eff075-b855-45ea-af65-eaa5ff059706">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="54a411fa-ed5d-489c-8467-eace80ee0154">
+          <TableID>dbo_warehouse</TableID>
+          <ColumnID>warehouse_city</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8503fe7d-3028-465e-aefb-810f3e82b4a8">
+          <AttributeID>Warehouse State Province</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>State Province</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="612f3824-0229-4798-a0a0-1fdf371c269f">
+      <ID>Warehouse State Province</ID>
+      <Name>State Province</Name>
+      <EstimatedCount>10</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0c1cb4cb-ee5a-4f19-a628-347b741b5e2f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7382f1bf-299a-47af-bb07-6411771d1692">
+            <TableID>dbo_warehouse</TableID>
+            <ColumnID>warehouse_state_province</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="49e4f2d2-7c9e-4532-b317-011a74cbc856">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b55e75b8-d73b-4c86-9e77-201a534c6ab1">
+          <TableID>dbo_warehouse</TableID>
+          <ColumnID>warehouse_state_province</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="28eaf13c-30f1-439c-a722-c73328349070">
+          <AttributeID>Warehouse Country</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Country</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <MemberNamesUnique>true</MemberNamesUnique>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="0d73b78f-e5ef-4e89-a0b1-734bd453d8e5">
+      <ID>Warehouse Country</ID>
+      <Name>Country</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40e2d594-7e31-4bc3-8ab3-456d2bb2a320">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6beedb65-e3c8-4d76-ba1b-2cee9df51866">
+            <TableID>dbo_warehouse</TableID>
+            <ColumnID>warehouse_country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e550100c-4c2f-40a2-80a7-edb4a7c200b8">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3da9c581-6bb1-48ca-ac93-542472d32cb7">
+          <TableID>dbo_warehouse</TableID>
+          <ColumnID>warehouse_country</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="303ca98c-9802-4644-a079-323e747f7ce9">
+      <ID>Warehouse Country - Warehouse State Province</ID>
+      <Name>Warehouses</Name>
+      <Translations>
+        <Translation dwd:design-time-name="5a083029-0809-4cea-8b8a-565a3e0c5504">
+          <Language>1049</Language>
+          <Caption>Склады</Caption>
+        </Translation>
+      </Translations>
+      <Levels>
+        <Level dwd:design-time-name="0855c779-f2b1-40a3-a689-36fb9c1dbaff">
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Warehouse Country</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="f18746f5-4712-4322-94d7-6dc695b0ff53">
+              <Language>1049</Language>
+              <Caption>Страна</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="c515e5fc-66a7-4ce6-9597-edbe3036e785">
+          <ID>State Province</ID>
+          <Name>State Province</Name>
+          <SourceAttributeID>Warehouse State Province</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="5af05020-5479-4e4a-8586-2233e3f93d18">
+              <Language>1049</Language>
+              <Caption>Провинция</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="e388f3ec-ef5b-4588-9461-3ef890046452">
+          <ID>City</ID>
+          <Name>City</Name>
+          <SourceAttributeID>Warehouse City</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="829e785a-4796-46ae-924b-a9496f5b3e02">
+              <Language>1049</Language>
+              <Caption>Город</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="31e7344e-da2c-4937-bc64-a328e219351b">
+          <ID>Warehouse</ID>
+          <Name>Warehouse</Name>
+          <SourceAttributeID>Warehouse</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="c0b31c76-150a-4cf0-a8e4-8af0da54ac11">
+              <Language>1049</Language>
+              <Caption>Склад</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="745a4137-7c7a-4b64-b1f6-5d6a582c94ae">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="500edf40-450b-4097-a552-ed38aadb41d4" />
+  </ProactiveCaching>
+</Dimension>
